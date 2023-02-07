@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+.facebook{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70vw;
+}
+
+.lado-esquerdo{
+    width: 600px;
+}
+
+.lado-direito{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.formulario{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.dados{
+    padding: 15px;
+    height: 22px;
+    border-radius: 6px;
+    border: 1px solid #c6ccd6;
+    outline: none;
+    width: 90%;
+    font-size: 16px;
+    color: black;
+}
+
+.dados:focus{
+    border-color: #3680da;
+}
+
+.botao{
+    padding: 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.1rem;
+    transition: .2s ;
+}
+
+#botao-entrar{
+    background-color: #0d68e0;
+}
+
+#botao-entrar:hover{
+    background-color: #1b28dc;
+}
+
+.link-senha{
+    color: #1b74e4;
+    text-decoration: none;
+}
+
+.link-senha:hover{
+    text-decoration: underline;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid #dddfe2;
+}
+
+#botao-criarconta{
+    background-color: #42b72a;
+    width: auto;
+
+}
+
+#botao-criarconta:hover{
+    background-color: #3b9828;
+    width: auto;
+}
+
+p{
+    text-align: center;
+}
+
+div.lado-esquerdo > img{
+    width: 50%;
+}
+
+div.lado-esquerdo > h3{
+    width: 80%;
+    font-size: 25px;
+}
+
